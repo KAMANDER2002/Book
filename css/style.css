@@ -1,0 +1,258 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+header>.title
+{
+	background-image: url(../images/title.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 600px;
+}
+header>.head
+{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #0060ae;
+	padding: 10px 0;
+	align-items: center;
+
+}
+header>.head>.links{
+	display: flex;
+	align-items: center;
+}
+header>.head>.links>img
+{
+	height: 70px;
+	width: 70px;
+}
+header>.head>.links>a
+{
+	display: inline-block;
+	padding: 15px 10px;
+	border:solid 1px transparent;
+	color: white;
+	margin: 0px 5px;
+	text-decoration:none;
+	transition: 0.5s;
+}
+header>.head>.links>.active
+{
+	border:solid 1px white;
+}
+
+header>.head>.links>a:hover
+{
+	border-color: white;
+}
+header>.head>.search>input
+{
+  width: 300px;
+  border:solid 1px white;
+  border-radius: 50px;
+  height: 30px;
+  font-size: 20px;
+}
+header>.main-header
+{
+	padding: 40px 5%;
+	margin: 50px 0;
+	height: 400px;
+	display: flex;
+}
+header>.main-header>.image-header
+{
+	background-image: url(../images/book1.jpg);
+	background-size: 60% 100%;
+	background-repeat: no-repeat;
+	width: 45%;
+	margin-left: 10%;
+}
+header>.main-header>.text-header
+{
+	width: 55%;
+	padding: 2% 10%;
+}
+header>.main-header>.text-header>.header-title
+{
+	font-size: 40px;
+	font-weight: bold;
+	margin: 2% 0;
+}
+header>.main-header>.text-header>.paragraph
+{
+	font-size: 20px;
+	margin: 20px 0;
+}
+header>.main-header>.text-header>.button
+{
+	display: block;
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+	border:solid 3px #0060ae;
+	border-radius: 60px;
+	color:black;
+	text-decoration: none;
+	transition: 0.5s;
+}
+header>.main-header>.text-header>.button:hover
+{
+	width: 230px;
+}
+.new-books
+{
+	height: 400px;
+	background-color: #E0FFFF;
+}
+.new-books>.text
+{
+	text-align: center;
+	padding: 2% 0;
+}
+.new-books>.text>.title
+{
+	font-size: 35px;
+}
+.new-books>.list>ul
+{
+	text-decoration:none;
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+}
+.new-books>.list>ul>li>img
+{
+	border:solid 2px black;
+	border-radius: 30px;
+}
+.content
+{
+	min-height: 100vh;
+}
+.content>.text
+{
+ text-align: center;
+ padding: 30px 0;
+}
+.content>.text>.title
+{
+ font-size: 30px;
+ font-weight: bold;
+}
+.content>.list>ul
+{
+  margin: 0 10%;
+}
+.content>.list>ul>li
+{
+    display: inline-block;
+	width: 300px;
+	text-align: center;
+	transition: width .2s;
+}
+.content>.list>ul>li>.product
+{
+    display: block;
+	border: 1px solid #000;
+	border-radius: 3px;
+	background: #fff;
+	margin: 0 20px 20px 0;
+	text-decoration: none;
+	color: #474747;
+	z-index: 0;
+	height: 400px;
+}
+.content>.list>ul>li>.product>.image
+{
+	margin: 20px 0;
+}
+.content>.list>ul>li>.product>.text
+{
+	margin: 20px 0;
+	font-size: 20px;
+}
+.content>.list>ul>li>.product>.source:hover
+{
+	color:blue;
+}
+.content>.buttons{
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+}
+.content>.buttons>a
+{
+ text-align: center;
+ display: block;
+ padding:5px 100px;
+ margin: 0 20px;
+ text-decoration: none;
+ border-radius: 40px;
+ border:solid 2px black;
+ color:black;
+ transition: 0.5s;
+}
+.content>.buttons>a:hover
+{
+	border-radius: 0px;
+}
+.content>.forms_inputs>.contact_inputs
+{
+	width: 40%;
+	padding: 30px 40px;
+	 margin: 0 auto;
+	 border:solid 2px black;
+}
+.content>.forms_inputs>.contact_inputs>input
+{
+	width: 500px;
+	height: 40px;
+	border:0;
+	border-bottom: 2px solid lightgrey;
+	outline: none;
+	margin:20px 0 10px 0;
+	display: block;
+	text-align: center;
+
+}
+footer
+{
+	padding: 30px 0;
+ background-color: #0060ae;
+ text-align: center;
+ color: white;
+}
+.form_сontacts
+{
+	display: flex;
+	justify-content: center;
+}
+.content>.form_сontacts>.contacts
+{
+width: 50%;
+margin: 100px 0 0 15%;
+font-size: 25px;
+}
+.content>.form_сontacts>.contact_inputs
+{
+	width: 50%;
+	border:solid 2px black;
+	margin: 30px 20% 0 0;
+}
+.content>.form_сontacts>.contact_inputs>input
+{
+	width: 500px;
+	height: 40px;
+	border:0;
+	border-bottom: 2px solid lightgrey;
+	outline: none;
+	margin:20px 0 10px 0;
+	display: block;
+	text-align: center;
+
+}
